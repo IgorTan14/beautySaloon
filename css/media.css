@@ -335,6 +335,9 @@
         flex-direction: column;
         gap: 24px;
     }
+    .header__content {
+        padding-bottom: 80px;
+    }
     
     .gallery__item {
         max-width: 100%;
@@ -412,6 +415,9 @@
         margin-bottom: 40px;
         font-size: 40px;
     }
+    .header__content {
+        padding-bottom: 68px;
+    }
 }
 
 @media(max-width: 380px){
@@ -437,6 +443,9 @@
 }
 
 @media(max-width: 340px){
+    .header__content {
+        padding-bottom: 58px;
+    }
     .header__title {
         font-size: 35px;
         line-height: 110%;
