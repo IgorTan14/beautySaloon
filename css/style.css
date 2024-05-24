@@ -304,3 +304,146 @@ color: rgb(205, 170, 125);
     font-weight: 400;
     line-height: 130%;
 }
+
+.price {
+    margin-bottom: 100px;
+}
+
+.price__title {
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 80px;
+}
+.price__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.price__item {
+    display: flex;
+    justify-content: space-between;
+}
+.price__item-image {
+}
+.price__item-content {
+    padding: 32px 0;
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.price__item-content-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    position: relative;
+}
+.price__item-content-item::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    opacity: 0.5;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+} 
+
+.price__item-content-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price__item-content-item-text h6{
+    color: rgb(255, 255, 255);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.price__item-content-item-text p{
+    color: rgb(255, 255, 255);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+}
+.price__item-content-item-price {
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond", serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+
+
+.reviews {
+    margin-bottom: 100px;
+}
+.reviews__title {
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+/* .reviews__inner {
+    display: flex;
+    justify-content: space-around;
+} */
+.reviews__item {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.reviews__item-wrapper {
+    display: flex;
+   gap: 30px;
+   padding: 0 50px;
+}
+.reviews__item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.reviews__item-ava img{
+    border-radius: 50%;
+    max-width: 150px !important;
+    width: 100%;
+    height: 150px;
+}
+.reviews__item-name {
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond", serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+}
+.reviews__item-content {
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    /* max-width: 500px;
+    width: 100%; */
+    background-color: #2a1241;
+    padding: 20px;
+    border-radius: 24px;
+}
+.reviews__inner .slick-slide .reviews__item-wrapper{
+    opacity: 0.6;
+}
+.reviews__inner .slick-active .reviews__item-wrapper{
+    opacity: 1 !important;
+}
