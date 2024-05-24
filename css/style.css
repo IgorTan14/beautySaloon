@@ -420,6 +420,7 @@ color: rgb(205, 170, 125);
     max-width: 150px !important;
     width: 100%;
     height: 150px;
+    margin: 0 auto;
 }
 .reviews__item-name {
     color: rgb(255, 255, 255);
