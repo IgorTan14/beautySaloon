@@ -30,7 +30,6 @@ $(function(){
         autoplaySpeed: 2000
       }
     },
-
   ]
 })
     
@@ -56,8 +55,55 @@ $(function(){
 })
 
 
+$("#rateYo-1").rateYo({
+  rating: 5,
+  spacing: "5px",
+  multiColor: {
+    "startColor": "#FF0000", 
+    "endColor": "#F39C12"  
+  }
+  });
+  $("#rateYo-2").rateYo({
+    rating: 5,
+    spacing: "5px",
+    multiColor: {
+      "startColor": "#FF0000", 
+      "endColor": "#F39C12"  
+    }
+    });
+    $("#rateYo-3").rateYo({
+      rating: 5,
+      spacing: "5px",
+      multiColor: {
+        "startColor": "#FF0000", 
+        "endColor": "#F39C12"  
+      }
+    });
 
-
+    $('.reviews__inner').slick({
+      arrows: false,
+      centerMode: true,
+      centerPadding: '40px',
+      variableWidth: true,
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      Infinity: true,
+      // autoplay: true,
+      // autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 750,
+          settings: {
+            centerMode: true,
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            centerPadding: '0px',
+          }
+        },
+        
+    
+      ]
+    })
 
 
 });
