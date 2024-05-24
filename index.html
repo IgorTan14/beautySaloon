@@ -13,7 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+<link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -32,10 +33,10 @@
                         <a href="index.html">Головна</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="masters.html">Майстри</a>
+                        <a href="#masters">Майстри</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#">Косметика</a>
+                        <a href="#price">Ціни</a>
                     </li>
                     <li class="header__menu-item header__menu-item--logo">
                         <a href="index.html">
@@ -43,13 +44,13 @@
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#">Акції</a>
+                        <a href="#gallery">Галерея</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#">Відгуки</a>
+                        <a href="#reviews">Відгуки</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#">Контакти</a>
+                        <a href="#footer">Контакти</a>
                     </li>
                 </ul>
             </nav>
@@ -73,16 +74,16 @@
                         <a href="masters.html">Майстри</a>
                     </li>
                     <li class="burger-menu__item">
-                        <a href="#">Косметика</a>
+                        <a href="#price">Ціни</a>
                     </li>
                     <li class="burger-menu__item">
-                        <a href="#">Акції</a>
+                        <a href="#gallery">Галерея</a>
                     </li>
                     <li class="burger-menu__item">
-                        <a href="#">Відгуки</a>
+                        <a href="#reviews">Відгуки</a>
                     </li>
                     <li class="burger-menu__item">
-                        <a href="#">Контакти</a>
+                        <a href="#footer">Контакти</a>
                     </li>
                 </ul>
 
@@ -183,9 +184,206 @@
         </div>
     </section>
 
-    <section class="gallery">
+
+    <section class="masters" id="masters">
+        <div class="container">
+            <h4 class="masters__title title">Наші майстри</h4>
+            <div class="masters__inner">
+
+                <div class="masters__item">
+                    <div class="masters__item-image">
+                        <img src="images/master-1.png" alt="master">
+                    </div>
+                    <h6 class="masters__item-name">Олена Маркова</h6>
+                    <span class="masters__item-work">Візажист</span>    
+                </div>
+                <div class="masters__item">
+                    <div class="masters__item-image">
+                        <img src="images/master-2.png" alt="master">
+                    </div>
+                    <h6 class="masters__item-name">Марія Згурська</h6>
+                    <span class="masters__item-work">Парикмахер</span>    
+                </div>
+                <div class="masters__item">
+                    <div class="masters__item-image">
+                        <img src="images/master-3.png" alt="master">
+                    </div>
+                    <h6 class="masters__item-name">Олена Маркова</h6>
+                    <span class="masters__item-work">Візажист</span>    
+                </div>
+                <div class="masters__item">
+                    <div class="masters__item-image">
+                        <img src="images/master-4.png" alt="master">
+                    </div>
+                    <h6 class="masters__item-name">Камілія Ратушняк</h6>
+                    <span class="masters__item-work">Візажист</span>    
+                </div>
+                <div class="masters__item">
+                    <div class="masters__item-image">
+                        <img src="images/master-5.png" alt="master">
+                    </div>
+                    <h6 class="masters__item-name">Анастасія Ларіонова</h6>
+                    <span class="masters__item-work">Візажист</span>    
+                </div>
+                <div class="masters__item">
+                    <div class="masters__item-image">
+                        <img src="images/master-6.png" alt="master">
+                    </div>
+                    <h6 class="masters__item-name">Юлія Нестеренко</h6>
+                    <span class="masters__item-work">Парикмахер</span>    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <div class="container">
+            <h4 class="price__title title">Ціни та послуги</h4>
+            <div class="price__inner">
+
+                <div class="price__item">
+                    <div class="price__item-image">
+                        <img src="images/price-1.jpeg" alt="price-img">
+                    </div>
+                    <div class="price__item-content">
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price__item">          
+                    <div class="price__item-content">
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                        <div class="price__item-content-item">
+                            <div class="price__item-content-item-text">
+                                <h6>Жіноча укладка</h6>
+                                <p>+ обробка кінчиків волосся</p>
+                            </div>
+                            <span class="price__item-content-item-price">
+                                600 ₴
+                            </span>
+                        </div>
+                    </div>
+                    <div class="price__item-image">
+                        <img src="images/price-1.jpeg" alt="price-img">
+                    </div>
+                </div>
+
+                <div class="price__item">
+                    <div class="price__item-image">
+                        <img src="images/price-1.jpeg" alt="price-img">
+                    </div>
+                    <div class="price__item-content">
+                        <div class="price__item-content">
+                            <div class="price__item-content-item">
+                                <div class="price__item-content-item-text">
+                                    <h6>Жіноча укладка</h6>
+                                    <p>+ обробка кінчиків волосся</p>
+                                </div>
+                                <span class="price__item-content-item-price">
+                                    600 ₴
+                                </span>
+                            </div>
+                            <div class="price__item-content-item">
+                                <div class="price__item-content-item-text">
+                                    <h6>Жіноча укладка</h6>
+                                    <p>+ обробка кінчиків волосся</p>
+                                </div>
+                                <span class="price__item-content-item-price">
+                                    600 ₴
+                                </span>
+                            </div>
+                            <div class="price__item-content-item">
+                                <div class="price__item-content-item-text">
+                                    <h6>Жіноча укладка</h6>
+                                    <p>+ обробка кінчиків волосся</p>
+                                </div>
+                                <span class="price__item-content-item-price">
+                                    600 ₴
+                                </span>
+                            </div>
+                            <div class="price__item-content-item">
+                                <div class="price__item-content-item-text">
+                                    <h6>Жіноча укладка</h6>
+                                    <p>+ обробка кінчиків волосся</p>
+                                </div>
+                                <span class="price__item-content-item-price">
+                                    600 ₴
+                                </span>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+    </section>
+
+    <section class="gallery" id="gallery">
         <div class="container" data-ref="gallery__wrapper">
-            <h4 class="gallery__title">Наші роботи</h4>
+            <h4 class="gallery__title title">Наші роботи</h4>
             <div class="filter-mix">
             <ul class="gallery__list">
                 <li class="gallery__list-item">
@@ -234,6 +432,68 @@
         </div>
         </div>
     </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h4 class="reviews__title title">Відгуки</h4>
+            <div class="reviews__inner">
+
+                <div class="reviews__item">
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item-info">
+                            <div class="reviews__item-ava">
+                                <img src="images/master-1.png" alt="ava">
+                            </div>
+                            <h6 class="reviews__item-name">Lisa Marchenko</h6>
+                          
+                                <div  id="rateYo-1"></div>
+                       
+                        </div>
+                        <div class="reviews__item-content">
+                            <p>До цього салону ходжу досить часто. То на стрижку, то на догляд, то на манікюр. І хочу сказати, що це один із найкращих салонів у місті, де кожній жінці припаде до душі. Майстри – найкращі у своїй справі. І ціни доступні.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__item">
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item-info">
+                            <div class="reviews__item-ava">
+                                <img src="images/master-1.png" alt="ava">
+                            </div>
+                            <h6 class="reviews__item-name">Alice Kornilova</h6>
+                          
+                                <div  id="rateYo-2"></div>
+                       
+                        </div>
+                        <div class="reviews__item-content">
+                            <p>Хочу сказати величезне спасибі Яні-Майстерові своєї справи-за прекрасний манікюр і педикюр! Дякуємо Яні за її відкритість, доброту, і привітність. Саме тому хочеться до неї повертатися, що я і роблю вже регулярно, майже рік. Я знайшла "СВОГО" майстра, чого і вам бажаю!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__item">
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item-info">
+                            <div class="reviews__item-ava">
+                                <img src="images/master-1.png" alt="ava">
+                            </div>
+                            <h6 class="reviews__item-name">Masha Smith</h6>
+                          
+                                <div  id="rateYo-3"></div>
+                       
+                        </div>
+                        <div class="reviews__item-content">
+                            <p>Велике дякую Оленці Копаловій за її творчий підхід до роботи, добре, уважне ставлення до клієнтів. Завжди виходжу від неї з гарним настроєм. Вона завжди дивує якимось новим манікюром, обов'язково внесе якусь родзинку у свою роботу.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <footer class="footer" id="footer">
@@ -282,6 +542,7 @@
 <script src="js/mixitup.js"></script>
 <script src="js/mixitup.min.js"></script>
 <script src="js/videotube.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
 <script src="js/main.js"></script>
 </body>
