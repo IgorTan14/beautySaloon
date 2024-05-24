@@ -88,8 +88,8 @@ $("#rateYo-1").rateYo({
       slidesToScroll: 1,
       slidesToShow: 1,
       Infinity: true,
-      // autoplay: true,
-      // autoplaySpeed: 3000,
+      autoplay: true,
+      autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 750,
