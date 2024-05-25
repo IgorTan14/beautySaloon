@@ -262,9 +262,9 @@
         line-height: 130%;
     }
 
-    .burger__content {
+    .burger__content--active {
         max-width: 400px;
-        padding: 88px 50px 70px;
+        padding: 120px 50px;
     }
     .price__item-content {
         max-width: 300px;
@@ -448,7 +448,7 @@
         line-height: 95%;
         margin: 160px auto 290px;
     }
-    .burger__content {
+    .burger__content--active  {
         padding: 20px 40px 40px;
         max-width: 375px;
         max-height: 88vh;
@@ -508,7 +508,7 @@
         display: flex;
         justify-content: center;
     }
-    .burger__content {
+    .burger__content--active {
         padding: 20px 30px;
         max-width: 330px;
         max-height: 90vh;
@@ -572,7 +572,7 @@
         line-height: 95%;
         margin: 120px auto 250px;
     }
-    .burger__content {
+    .burger__content--active {
         padding: 22px 40px 40px;
         max-width: 100%;
         max-height: 100vh;
@@ -637,7 +637,7 @@
         line-height: 110%;
         margin: 120px auto 250px;
     }
-    .burger__content {
+    .burger__content--active {
         padding: 22px 30px 30px;
     }
     .masters {

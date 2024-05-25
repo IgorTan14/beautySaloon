@@ -63,6 +63,7 @@
     text-align: center;
     max-width: 580px;
     width: 100%;
+    animation-duration: 2s;
 }
 .header__down{
     text-align: center;
@@ -394,10 +395,6 @@ color: rgb(205, 170, 125);
     margin-bottom: 80px;
     text-align: center;
 }
-/* .reviews__inner {
-    display: flex;
-    justify-content: space-around;
-} */
 .reviews__item {
     max-width: 800px;
     margin: 0 auto;
